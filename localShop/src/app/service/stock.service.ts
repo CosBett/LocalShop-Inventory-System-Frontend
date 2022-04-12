@@ -10,7 +10,7 @@ import { Stock } from '../interface/stock';
 })
 export class StockService {
 
-   baseUrl: string = 'http://127.0.0.1:8000/api/';
+   baseUrl: string = 'https://localshopinv.herokuapp.com/api/';
  
   constructor(private http:HttpClient) {
   }
